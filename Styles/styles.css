@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #bfe4c3;
+
+}
+h1 {
+
+ color: #1a8f1a;
+ font-style: bold;
+ font-size: 50px;
+
+}
+
+
+/* Contenedor general */
+#generalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    /* Limitar el ancho del contenedor */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(244, 129, 129);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del select */
+#selectContainer {
+
+width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #00796b;
+    /* Borde verde oscuro */
+    border-radius: 12px;
+    /* Bordes redondeados */
+    background: linear-gradient(to right, #b2dfdb, #e0f2f1);
+    /* Gradiente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#selectContainer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#selectSeries {
+    width: 100%;
+    /* Ocupa el ancho del contenedor */
+    max-width: 300px;
+    /* Limitar el ancho máximo */
+    height: 40px;
+    /* Altura cómoda */
+    padding: 5px 10px;
+    /* Espaciado interno */
+    font-size: 24px;
+    /* Tamaño del texto */
+    color: #ffffff;
+    /* Color del texto */
+    background-color: #00796b;
+    /* Fondo verde oscuro */
+    border: 2px solid #004d40;
+    /* Borde con color a juego */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    appearance: none;
+    /* Ocultar flecha por defecto del navegador */
+    cursor: pointer;
+    /* Cambiar el cursor al puntero */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Transiciones */
+    text-align: center;
+}
+
+
+/* Hover */
+#selectSeries:hover {
+    background-color: #24a08b;
+    /* Cambiar fondo al pasar el mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra más intensa */
+}
+
+/* Focus */
+#selectSeries:focus {
+    outline: none;
+    /* Eliminar el borde azul predeterminado */
+    border-color: #26a69a;
+    /* Cambiar color del borde */
+    box-shadow: 0 0 5px rgba(38, 166, 154, 0.5);
+    /* Sombra al enfocarse */
+}
+
+
+/* Contenedor del producto */
+#seriesDisplayContainer {
+    min-height: 300px;
+    /* Mantener tamaño constante */
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ddd;
+    /* Borde para separar visualmente */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #dfe695;
+}
+
+
+/* Imagen del producto */
+#seriesDisplayContainer img {
+    max-width: 100%;
+    /* Ajustar al contenedor */
+    max-height: 200px;
+    /* Limitar altura */
+    object-fit: contain;
+    /* Mantener proporciones */
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.seriesCard p {
+    margin-top: 10px;
+    /* Espacio entre la imagen y el nombre */
+    font-size: 32px;
+    /* Tamaño del texto */
+    color: #4e0be0;
+    /* Color del texto */
+    font-weight: bold;
+    /* Fuente en negrita */
+    text-align: center;
+}
