@@ -70,7 +70,7 @@ function getSeries() {
     select.addEventListener("change", () => {
         let selectedDay = select.value;
 
-            displaySeries(selectedDay);
+        displaySeries(selectedDay);
     });
 
 }
@@ -136,10 +136,17 @@ function seriesList() {
             },
             {
                 "id": 10,
-                "name": "FBI",
-                "day": "Viernes",
+                "name": "FBI T7",
+                "day": "Jueves",
                 "image": "../Recursos/FBI.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Texas Metal T7",
+                "day": "Jueves",
+                "image": "../Recursos/descarga.jpeg"
             }
+
 
 
 
