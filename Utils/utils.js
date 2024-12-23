@@ -145,6 +145,12 @@ function seriesList() {
                 "name": "Texas Metal T7",
                 "day": "Jueves",
                 "image": "../Recursos/descarga.jpeg"
+            },
+            {
+                "id": 12,
+                "name": "911 Lone Star T4",
+                "day": "Lunes",
+                "image": "../Recursos/LoneStart.jpeg"
             }
 
 
