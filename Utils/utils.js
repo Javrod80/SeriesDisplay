@@ -151,7 +151,13 @@ function seriesList() {
                 "name": "911 Lone Star T4",
                 "day": "Lunes",
                 "image": "../Recursos/LoneStart.jpeg"
+            },
+            { "id": 13,
+                "name": "Chapa y Pintura",
+                "day": "Jueves",
+                "image": "../Recursos/chapa.jpeg"
             }
+          
 
 
 
