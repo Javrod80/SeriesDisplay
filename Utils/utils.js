@@ -156,6 +156,12 @@ function seriesList() {
                 "name": "Chapa y Pintura",
                 "day": "Jueves",
                 "image": "../Recursos/chapa.jpeg"
+            },
+            {
+                "id": 14,
+                "name": "Chicago PD T12",
+                "day": "Miercoles",
+                "image": "../Recursos/chicagoPD.jpg"
             }
           
 
