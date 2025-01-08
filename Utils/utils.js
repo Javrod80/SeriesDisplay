@@ -162,6 +162,12 @@ function seriesList() {
                 "name": "Chicago PD T12",
                 "day": "Miercoles",
                 "image": "../Recursos/chicagoPD.jpg"
+            },
+            {
+                "id": 15,
+                "name": "Fire Country T1",
+                "day": "Lunes",
+                "image": "../Recursos/fireCountry.jpg"
             }
           
 
