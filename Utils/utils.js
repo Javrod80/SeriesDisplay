@@ -168,6 +168,12 @@ function seriesList() {
                 "name": "Fire Country T1",
                 "day": "Lunes",
                 "image": "../Recursos/fireCountry.jpg"
+            },
+            {
+                "id": 16,
+                "name": "True Detective T3",
+                "day": "Viernes",
+                "image": "../Recursos/truedetective.jpg"
             }
           
 
