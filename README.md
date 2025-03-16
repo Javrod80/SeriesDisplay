@@ -37,6 +37,12 @@ Esta es una aplicación web sencilla que permite a los usuarios ver qué series 
 2. Se mostrarán las series disponibles con sus imágenes.
 3. Si no hay series para ese día, se mostrará un mensaje de aviso.
 
+📷 Capturas de Pantalla
+![image](https://github.com/user-attachments/assets/fa60b4ef-4087-4ace-ace9-36b61c8b2d9b)
+![image](https://github.com/user-attachments/assets/e61c9e37-5467-4166-9df0-0abb5c2c0424)
+![image](https://github.com/user-attachments/assets/41746c7a-aa27-440d-8c7c-30603a2a2ba8)
+
+
 
 ## 📄 Licencia
 Este proyecto está bajo la licencia MIT.
