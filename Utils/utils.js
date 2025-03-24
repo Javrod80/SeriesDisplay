@@ -174,6 +174,12 @@ function seriesList() {
                 "name": "True Detective T3",
                 "day": "Viernes",
                 "image": "../Recursos/truedetective.jpg"
+            },
+            {
+                "id": 17,
+                "name": "Alert T3",
+                "day": "Lunes",
+                "image": "../Recursos/alertT3.jpeg"
             }
           
 
