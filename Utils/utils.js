@@ -180,8 +180,13 @@ function seriesList() {
                 "name": "Alert T3",
                 "day": "Lunes",
                 "image": "../Recursos/alertT3.jpeg"
+            },
+            {
+                "id": 18,
+                "name": "SEAL T7",
+                "day": "Viernes",
+                "image": "../Recursos/seal.jpg"
             }
-          
 
 
 
